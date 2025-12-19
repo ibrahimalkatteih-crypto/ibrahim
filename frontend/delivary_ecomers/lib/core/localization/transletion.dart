@@ -1,0 +1,106 @@
+import 'package:get/get.dart';
+
+class MyTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+    'en': {
+      '1': "choose your language",
+      '2': "please enter your",
+      '3': "Forget Password?",
+      '4': "Don't have an account? Sign Up",
+      '5': "Have an account? Sign In",
+      '6': 'Or log in with',
+      '7':
+        'Enter your email to receive a link to create a new password via email',
+      '8': 'Send reset link',
+      '9': 'Check Email',
+      '10': 'Reset Password',
+      '11': 'Enter the verification code we sent to your email',
+      '12': 'Enter new password',
+      '13': 'Verify Code',
+      '14': 'Verified successfully',
+      '15': 'Discover our diverse products',
+      '16':
+        'More than 100,000 products await you!\n Browse, choose, and enjoy a unique shopping experience through our online store.',
+      '17': 'Secure and easy payment',
+      '18':
+        'Choose the payment method that suits you—cards,\n e-wallets, or QR codes.\n Shop with complete comfort and security.',
+      '19': 'Track your order moment by moment',
+      '20':
+        'From the moment of purchase until your product arrives at your doorstep,\n easily track your order status through the app.',
+      '21': 'Fast delivery everywhere',
+      '22':
+        'We deliver your order as quickly as possible!\n An efficient delivery network covers all areas \nto ensure your comfort',
+      '23': 'not valid username',
+      '24': 'not valid email',
+      '25': 'not valid phone',
+      '26': 'field must not be empty',
+      '27': 'password length is less than ',
+      '28': 'password length is greater than ',
+      '29': 'Alert',
+      '30': 'Do you want to exit the app?',
+      '31':'Phone or Email Already Exist',
+      '32':'code is valid!',
+      '33':'email or password incorrect',
+      '34':'Find your prodacts',
+      '35':'Prodacts For You',
+      '36':'Categoreis',
+      '37':'Sign in',
+      '38': 'Passwords do not match!',
+      "39":"email warning",
+      "40": "Code has been sent successfully",
+      "41":"resend",
+      "42": "Password cannot be the same",
+    
+    },
+    'ar': {
+      '1': "اختر اللغة التي تريد استخدامها",
+      '2': "الرجاء ادخال",
+      '3': "هل نسيت كلمة السر؟",
+      '4': 'ليس لديك حساب؟ سجل',
+      '5': 'لديك حساب؟ سجل الدخول',
+      '6': 'أو قم بتسجيل الدخول باستخدام',
+      '7':
+          'أدخل بريدك الإلكتروني لتلقي رابط لإنشاء كلمة مرور جديدة عبر البريد الإلكتروني',
+      '8': 'إرسال رابط إعادة التعيين',
+      '9': 'التحقق من الايميل',
+      '10': 'إعادة تعيين كلمة المرور',
+      '11': 'أدخل رمز التحقق الذي أرسلناه الى ايميلك',
+      '12': 'أدخل كلمة مرور جديدة',
+      '13': 'التحقق من الكود',
+      '14': 'تم التحقق بنجاح',
+      '15': 'اكتشف منتجاتنا المتنوعة',
+      '16':
+          'أكثر من 100,000 منتج بانتظارك! تصفّح، اختر، \nواستمتع بتجربة تسوّق فريدة من نوعها عبر متجرنا الإلكتروني.',
+      '17': 'دفع آمن وسهل',
+      '18':
+          'اختر وسيلة الدفع التي تناسبك—بطاقات،\n محافظ إلكترونية، أو رموز QR\n. تسوّق براحة وأمان تام.',
+      '19': 'تابع طلبك لحظة بلحظة',
+      '20':
+          'من لحظة الشراء حتى وصول المنتج لباب بيتك،\n تابع حالة طلبك بكل سهولة عبر التطبيق',
+      '21': 'توصيل سريع لكل مكان',
+      '22':
+          'نوصّل طلبك بأسرع وقت ممكن!\n شبكة توصيل فعّالة تغطي كل المناطق \nلضمان راحتك',
+      '23': 'اسم المستخدم غير صالح',
+      '24': 'الايميل غير صالح',
+      '25': 'رقم الهاتف غير صالح',
+      '26': 'لا يجب ان يكون الحقل فارغ',
+      '27': 'طول الكلمة أقل من ',
+      '28': 'طول الكلمة أكبر من ',
+      '29': 'تنبيه',
+      '30':'هل تريد الخروج من التطبيق',
+      '31':'الهاتف او ايميلك موجود',
+      '32':'الكود غير صحيح!',
+      '33':'الايميل او كلمة المرور خاطئة',
+      '34':'ابحث عن منتجاتك',
+      '35':'منتجات من أجلك',
+      '36':'التصنيفات',
+      "37":'تسجيل',
+      "38":"كلمات السر غير متطابقة!",
+      "39":"الايميل خاطئ",
+      "40":"تم ارسال الكود بنجاح",
+      "41":"اعادة الارسال",
+      "42":"لا يمكن ان تكون كلمة المرور نفسها",
+    },
+  };
+}

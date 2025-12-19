@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "your project_number in firebase console",
+    "project_id": "your project_id in firebase console",
+    "storage_bucket": "ecommers-9ae84.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "your mobilesdk_app_id",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "your api key"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
